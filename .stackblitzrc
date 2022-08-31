@@ -1,5 +1,5 @@
 {
-  "startCommand": "pnpm run serve",
+  "startCommand": "npm run serve",
   "env": {
     "NODE_ENV": "development"
   }
