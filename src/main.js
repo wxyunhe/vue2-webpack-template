@@ -1,5 +1,9 @@
-import Vue from 'vue';
+import Vue from "vue";
+import App from "./App";
 
-import App from './App';
-
-new Vue(App).$mount('#app');
+new Vue({
+  el: "#app",
+  render(h) {
+    return h(App);
+  },
+});
