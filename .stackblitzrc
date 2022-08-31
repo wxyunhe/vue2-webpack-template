@@ -1,0 +1,6 @@
+{
+  "startCommand": "pnpm run serve",
+  "env": {
+    "NODE_ENV": "development"
+  }
+}
