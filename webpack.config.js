@@ -7,6 +7,9 @@ module.exports = {
   entry: "./src/main.js",
   resolve: {
     extensions: [".vue", ".js", ".jsx", ".json"],
+    alias: {
+      '@': resolve('src')
+    }
   },
   module: {
     rules: [
