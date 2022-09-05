@@ -1,19 +1,20 @@
 ---
 to: src/api/<%=name%>.service.js
 ---
+import http from '@/utils/http-request';
 
-export function get<%=name%>List(){
-
-}
-
-export function get<%=name%>(id){
+export function get<%= h.inflection.camelize(name)%>List(){
 
 }
 
-export function save<%=name%>(){
+export function get<%= h.inflection.camelize(name)%>(id){
 
 }
 
-export function remove<%=name%>(){
+export function save<%= h.inflection.camelize(name)%>(){
+
+}
+
+export function remove<%= h.inflection.camelize(name)%>(){
 
 }
